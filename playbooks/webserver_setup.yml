@@ -1,7 +1,7 @@
 ---
 - name: installing appropriate webserver on centos and ubuntu................
   hosts: webservers
-  become_user: yes
+  become: true
   roles:
     - apache
     - nginx
