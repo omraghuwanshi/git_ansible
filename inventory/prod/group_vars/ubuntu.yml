@@ -1,2 +1,4 @@
 ---
 webserver: apache
+ansible_become: true
+ansible_become_pass: password
