@@ -3,5 +3,6 @@
   hosts: webservers
   become_user: yes
   roles:
-    - role: "{{ webserver }}"
+    - role: "apache"
+    - role: "nginx"
 
