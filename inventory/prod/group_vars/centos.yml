@@ -1,5 +1,2 @@
 ---
-ansible_user: ansible
-ansible_password: password
-
-webserver : nginx
+webserver: nginx
